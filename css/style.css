@@ -1,0 +1,30 @@
+#slide .img-frame{
+    position: relative;
+}    
+#slide .caption {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
+#slide .caption h3 {
+    background: white;
+    margin: 0;
+    display: inline-block;
+}
+#slide .caption p {
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    display: inline-block;
+}
+#slide .caption small {
+    display: inline-block;
+    background: rgba(255,255,255,.5);
+    padding: 0.3em;
+    color: rgb(85, 85, 85);
+    border-radius: 5px;
+    margin-left: 5rem;
+    text-shadow: 0 1px 0 rgba(255,255,255,.4);
+    float: right;
+    margin-right: 2rem;
+}
